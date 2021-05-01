@@ -27,4 +27,4 @@ RUN npm install -g localtunnel
 
 ADD https://github.com/tsl0922/ttyd/releases/download/1.6.1/ttyd_linux.x86_64 /usr/local/bin/ttyd
 RUN chmod +x /usr/local/bin/ttyd
-
+CMD bash install.sh
